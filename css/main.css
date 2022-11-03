@@ -1,0 +1,82 @@
+.superior{
+    padding-inline:1.5rem;
+    padding-block: 2rem;
+    border-radius: 0.313rem top;
+    background-color: white;
+}
+
+.p-um{
+    font-weight: 700;
+    line-height: 1.25rem;
+    color: var(--Bright-Yellow);
+    margin-bottom: 1rem;
+}
+
+.p-dois{
+    line-height: 1.625rem;
+    color: var(--Grayish-Blue);
+    font-size: 0.875rem;
+}
+
+.esquerda{
+    padding: 1.5rem;
+    background-color: var(--Cyan);
+    
+}
+
+.um-esquerda{
+   color: white;
+   font-size:2rem;
+   font-weight:700;
+   line-height:2.375rem; 
+}
+
+.dois-esquerda{
+    color: white;
+    opacity: 0.5;  
+}
+
+.div-esquerda{
+    display: flex;
+    margin:0.75rem;
+    margin-bottom: 0.25rem;
+    align-items: center;
+    gap: 0.75rem;
+    align-items: center;
+}
+
+
+
+.direita{
+   background-color: var(--light-cyan); 
+   padding: 1.5rem;
+   border-bottom-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+}
+
+.p-direita{
+    line-height: 1.25rem;
+    font-size: 0.875rem;
+    color: white;
+    opacity:0.75;
+}
+
+.p-sozinho-esquerda{
+    color: white;
+    line-height: 1.625rem;
+    margin-bottom: 1.625rem;
+}
+
+
+.botão{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    color: white;
+    font-size:1rem;
+    line-height: 1.125rem;
+    border: none;
+    background-color: var(--Bright-Yellow);
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011)
+}

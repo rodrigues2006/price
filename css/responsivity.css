@@ -1,0 +1,58 @@
+@media(min-width:650px) {
+    .inferior{
+        display:flex;
+    }
+
+    .esquerda,
+    .direita{
+        width: 100vh;
+        padding: 2.5rem;
+    }
+
+    main{
+        width: 40rem;
+        padding: 0;
+        
+    }
+
+    body{
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .superior{
+        border-top-left-radius:0.5rem ;
+        border-top-right-radius:0.5rem ;
+        padding: 2.5rem;
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }
+
+    .p-um{
+        font-size: 1.125rem;
+    }
+
+    .p-dois{
+        font-size:1rem;
+    }
+
+    .esquerda{
+        border-bottom-left-radius: 0.5rem;
+
+    }
+
+    .direita{
+        border-bottom-left-radius:none ;
+        border-bottom-right-radius: none;
+        border-bottom-right-radius: 0.5rem;
+    }
+
+
+
+    
+}
+   
